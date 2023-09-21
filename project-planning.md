@@ -6,7 +6,8 @@
 
 
 # Your Task
-Create a project plan similar to the CatApp example above. 
+Create a project plan similar to the CatApp example in the [full stack web architecture notes](./full-stack-web-app-architecture.md).
+
 You'll need to decide:
 1. Five things that your website will do (functionalities)
 2. Which entities your website will need to store
