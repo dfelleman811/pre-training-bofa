@@ -65,7 +65,7 @@ git pull origin main
 ```
 7. Open the `skill-survey.md` file - you can do this from the command line or in your File Explorer.
 ```
-notepad about-us.txt
+notepad skill-survey.md
 ```
 8. Add your self ratings.
 9. Add the changes to be tracked by Git.
