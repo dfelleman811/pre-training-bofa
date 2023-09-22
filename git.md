@@ -43,5 +43,8 @@ git branch - will list all branches
 
 git checkout -b `<your-branch-name>`
     - this will create a new branch 
-    - AND 'check it out' - which means move your HEAD/pointer to the new branch so any changes you make are isolated in that branch
+    - AND 'check it out' - which means move your HEAD/pointer to the new branch so any changes you make are isolated in that space
     - it's important to make sure you ahve committed (or stashed) your recent changes before creating a new branch
+    - AND 'check it out' - which means move your HEAD/pointer to the new branch so any changes you make are isolated in that branch 
+    - it's important to make sure you have committed (or stashed) your recent changes before creating a new branch
+
