@@ -32,5 +32,15 @@ git commit -m "some commit message"
     - retrieves updates from the remote repository and merges them into your local copy 
     - it's a combo of two git commands: `git fetch` - retrieves all branches, and `git merge` - which combines the new additions/changes with the existing code. 
 
-git push `name-of-remote` `name-of-branch` 
+git push `<name-of-origin>` `<name-of-branch>` 
     - this command tells the remote repo to update to the most recent commit 
+
+
+## Branching
+- we can create local (and remote) duplicates of our repos - and refer to them as branches 
+
+git branch - will list all branches 
+
+git checkout -b `<your-branch-name>`
+    - this will create a new branch 
+    - AND 'check it out' - which means move your HEAD/pointer to the new branch so any changes you make are isolated in that branch
