@@ -23,6 +23,7 @@ Rate level of experience in the following from 1-5:
 - HTML/CSS
 - JavaScript
 - JSON
+- Python
 
 ## Libraries/Frameworks
 - JDBC
