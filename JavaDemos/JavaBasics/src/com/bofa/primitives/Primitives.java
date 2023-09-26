@@ -88,6 +88,19 @@ public class Primitives {
         // but it's best practice to be as explicit as possible.
         double castedDouble = myFloat;
 
+        // false and true are reserved keywords in Java (make note that they are lower case)
+        boolean lies = false;
+        boolean truth = true;
+
+        // comparison operator
+        boolean result = lies == truth;
+        System.out.println(result);
+
+        // only use "==" to compare primitives - when working with Objects - we have another way -> .equals()
+        boolean anotherResult = 5 == 9;
+        System.out.println(anotherResult);
+
+
     }
 
 }
