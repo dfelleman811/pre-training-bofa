@@ -1,4 +1,9 @@
-public class HelloWorld {
+// Package Declaration
+// This MUST be the first (non-commented) line of code in our Java source code files
+package com.bofa.helloworld;
+
+// Fully Qualified Class Path/Name: com.bofa.helloworld.HelloWorld
+public class HelloWorld { // Pascale Case -> first letter of each word is capitalized (not helloWorld, not hello_world)
     
     // This is a single-line comment
     
