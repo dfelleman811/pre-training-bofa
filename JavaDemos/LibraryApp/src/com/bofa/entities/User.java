@@ -4,18 +4,18 @@ public class User {
 
     // Instance Variables
     public String username;
-    public String password;
-    public String type;
+    public String pass;
+    public Role role;
 
     // Constructor
     public User() {
 
     }
 
-    public User(String username, String password, String type) {
+    public User(String username, String password, Role type) {
         this.username = username;
-        this.password = password;
-        this.type = type;
+        this.pass = password;
+        this.role = type;
     }
 
     // This is an Annotation
@@ -33,8 +33,8 @@ public class User {
     @Override // this annotation is optional - but it's best to include it
     public String toString() {
         return "User [username=" + this.username +
-                    ", password=" + this.password +
-                    ", type=" + this.type +
+                    ", pass=" + this.pass +
+                    ", type=" + this.role +
                     "]";
     }
 
