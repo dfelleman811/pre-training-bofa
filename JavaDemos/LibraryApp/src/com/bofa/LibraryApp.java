@@ -59,6 +59,7 @@ public class LibraryApp {
                 System.out.println("Got it, " + username + ". Please make a password:");
                 String password = scanner.nextLine();
                 User newUser = new User(username, password, "member");
+                System.out.println(newUser);
                 System.out.println("Welcome " + newUser.username);
                 users[0] = newUser;
                 System.out.println(Arrays.toString(users));
